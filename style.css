@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+
+.nav {  
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 0;
+  display:flex;
+  margin: 21px;
+  text-shadow: none;
+}
+
+
+.link{
+    background-size: cover;
+    background-image:url("button.png");
+    text-decoration:none;
+    padding: 10px;
+    font-size: 30px;
+    transition: transform 0.3s ease-in-out;
+    width:235px;
+    min-height: 80px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display:flex;    
+}
+
+
+.link:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.2,1.2);
+    filter: hue-rotate(-30deg);
+    /* animation: lilshake 0.5s ease-out forwards; */
+}
+.link:active{
+    filter: hue-rotate(30deg);
+    animation: lilshake 0.5s ease-out forwards;
+}
+
+
+
+
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+
+body{
+    background-image: url("landscape.png");
+    background-position: center;
+    background-size: cover;  
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.8);
+    color:white;
+}
+
+
+p::first-letter{
+    color:aliceblue;
+    font-size: 32px;
+
+}
+
+
+.text{
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.8);
+    color:white;
+    font-size: 30px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+
+.psevdotext{
+    color:white;
+    font-size: 20px;
+}
+
+
+.video{
+    background-color: rgba(200, 138, 56, 0.2);
+    border:dotted;
+    border-color: rgb(0, 0, 0);
+    width: 93%;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+}
+
+
+html{
+    scroll-behavior: smooth; 
+}
+
+h2::first-letter{
+    font-size: 45px;
+    color: aliceblue;
+}
+
+h4::first-letter{
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.special-text{
+    display: flex;
+    color: chocolate;
+    font-size: 120px;
+    font-family: 'Caveat';
+    width: 80px;
+}
+
+.special-text:hover{
+    animation: shake 0.3s ease-out forwards;
+    filter: hue-rotate(-10deg);
+}
+
+ 
+@keyframes shake {
+    0% { transform: translate(1px, 0px) rotate(1deg);}
+    20% { transform: translate(-1px, 0px) rotate(-2deg);}
+    30% { transform: translate(1px, 0px) rotate(3deg);}
+    60% { transform: translate(-1px, 0px) rotate(-3deg);}
+    80% { transform: translate(1px, 0px) rotate(4deg);}
+    100% { transform: translate(-1px, 0px) rotate(1deg);}
+}
+
+@keyframes lilshake {
+    0% { transform: rotate(1deg);}
+    20% { transform: rotate(-1deg);}
+    30% { transform: rotate(1deg);}
+    60% { transform: rotate(-1deg);}
+    80% { transform: rotate(1deg);}
+    100% { transform: rotate(-1deg);}
+
+}
+
+.flexbox{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.movie2{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: double;
+    border-width: 10px;
+    border-color: chocolate;
+    border-radius: 5%;
+}
+
+.movie3{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: double;
+    border-width: 10px;
+    border-color: rgb(210, 30, 156);
+    border-radius: 5%;
+}
+
+.movie4{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: double;
+    border-width: 10px;
+    border-color: rgb(51, 30, 210);
+    border-radius: 5%;
+}
+
+.youtube{
+    display: flex;
+    justify-content: center;
+    margin: 19px auto;
+    border-radius: 1%;
+}
+
+h1{
+    font-family: 'Caveat';
+    margin-top: 60px;
+    font-size: 70px;
+    margin-left: 25px;
+    color:chocolate    
+}
+
+
+
+
+
+
